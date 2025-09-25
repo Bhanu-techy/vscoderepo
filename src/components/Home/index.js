@@ -318,11 +318,7 @@ class Home extends Component{
 
   renderFailureView = () => (
     <div className="failure-container">
-      <img
-        src="https://res.cloudinary.com/dsqphsoxb/image/upload/v1751650133/failureView_po4xd8.png"
-        alt="failure view"
-        className="failure-img"
-      />
+      
       <p>Something went wrong. Please try again</p>
       <button type="button" onClick={this.getDeatils}>
         Try again
