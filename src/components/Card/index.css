@@ -1,0 +1,25 @@
+.card {
+  border: 2px solid #bfbfbf;
+  padding: 15px;
+  margin: 10px;
+  width: 300px;
+  border-radius: 5px;
+  background-color: #f2efef;
+}
+.del-btn {
+  background-color: rgb(235, 75, 75);
+  border: none;
+  color: #ffffff;
+}
+button {
+  height: 25px;
+  border-radius: 4px;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+span {
+  font-weight: bold;
+}
