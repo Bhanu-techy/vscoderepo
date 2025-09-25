@@ -1,5 +1,4 @@
 import {Component} from 'react'
-import {ThreeDots} from 'react-loader-spinner'
 import Popup from 'reactjs-popup'
 
 import 'reactjs-popup/dist/index.css'
@@ -306,13 +305,7 @@ class Home extends Component{
 
   renderLoader = () => (
     <div className="loader-container">
-          <ThreeDots
-            Home="80"
-            width="80"
-            radius="80"
-            color="blue"
-            ariaLanel="three-dots-loading"
-          />
+        <p>Loading...</p>
         </div>
   )
 
